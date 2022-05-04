@@ -17,3 +17,8 @@ Commit- Save your files in Git
 Push- Upload Git commits to remote repo, like GitHub Or Gitlab
 
 Pull - Download Changes from remote repo to local machine
+
+Other commands
+
+git status - for tracking ststus of files, new, deleted and modified files
+git add . - Tells git to track all the changes and making them ready to committed
