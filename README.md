@@ -8,7 +8,7 @@ Github Or Gitlab- Websites to host your git repositories online
 
 Git Commands 
 
-Clone - Bring a repository from online to local machine
+Clone - Bring a repository from online to local machine, (Git is automatically initialized in the cloned repository)
 
 Add- Track your files and changes in Git
 
@@ -21,4 +21,17 @@ Pull - Download Changes from remote repo to local machine
 Other commands
 
 git status - for tracking ststus of files, new, deleted and modified files
+
 git add . - Tells git to track all the changes and making them ready to committed
+
+git commit -m "From Local Machine"
+
+git push origin main
+(main is the branch to push to, origin refers to remoe location)
+
+
+git branch - Listing all branches
+
+git checkout -b feature-new  - Creating a new branch
+
+get checkout 'branchname' - Switching between available branches
